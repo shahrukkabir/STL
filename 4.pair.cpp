@@ -16,11 +16,19 @@ bool cmp ( const pair<int,int> &p1, const pair<int, int> &p2  )
 
 	Before sorting:
 
-        (3, 5) (2, 4) (3, 3) (1, 2) (2, 1)
+        (3, 5) 
+		(2, 4) 
+		(3, 3) 
+		(1, 2) 
+		(2, 1)
 
     After sorting:
 	
-        (3, 3) (3, 5) (2, 1) (2, 4) (1, 2)
+        (3, 3) 
+		(3, 5) 
+		(2, 1) 
+		(2, 4) 
+		(1, 2)
 
 	*/
 
@@ -64,17 +72,17 @@ int main()
 	v.push_back ( { 2, 5 } );
 	v.push_back ( { 7, 1 } );
 	v.push_back ( { 3, 6 } );
-	v.push_back ( { 3, 6 } );
+	v.push_back ( { 3, 7 } );
 	v.push_back ( { 7, 1 } );
 
 	sort ( v.begin(), v.end() );
 	for ( auto u : v ) cout << u.first << " " << u.second << endl;
 	cout << endl;
 	/**
-	1 5
+	1 5 
 	2 5
 	3 6
-	3 6
+	3 7     //small to big (normally)
 	7 1
 	7 1
 

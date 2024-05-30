@@ -93,6 +93,9 @@ int main ()
     cout << endl;
 
     a = { 1, 1, 2, 2, 2, 3, 3 };
+
+    //sort takte hbe
+    
     unique( a.begin(), a.end() );
 
     for ( auto u : a ) cout << u << " "; /// 1 2 3 2 2 3 3 
@@ -113,3 +116,6 @@ int main ()
 
     return 0;
 }
+
+//  v.erase(unique(v.begin(),v.end()),v.end());
+
