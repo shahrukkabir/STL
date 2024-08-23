@@ -1,12 +1,7 @@
-//In C++ STL, std::set is a container that stores a sorted set of unique elements. 
-
-///   ***   ---   |||		 In the name of ALLAH		|||   ---   ***   ///
-
-
+//In C++ STL,set is a container that stores a sorted set of unique elements. 
 
 #include<bits/stdc++.h>
 using namespace std;
-
 
 int main()
 {
@@ -214,16 +209,16 @@ int main(){
 
    multiset<int>s;
 
-   s.insert(1);          ///erase deletes all occurrence of this value
+   s.insert(1);          // erase deletes all occurrence of this value
    s.insert(2);
-   s.insert(1);         ///O(log N)
-   s.insert(3);
+   s.insert(1);          // O(log N)
+   s.insert(3); 
    s.insert(1);
    s.insert(4);
    s.insert(1);
    s.insert(4);
    auto it = s.find(1);
-   s.erase(it);         //only 1 element delete
+   s.erase(it);          //only 1 element delete
    for(auto u : s){
     cout<<u<<" "<<endl;  //ouput:1 1 1 2 3 4 4
    }
@@ -232,42 +227,32 @@ int main(){
 }
 
 
-
-
 /* 
-    ##  Difference Between set, unordered_set, multiset in C++ ##
+Difference Between set, unordered_set, multiset in C++ :
 
-**set(sorted and duplicate removed) : 
-
-Stores the values in sorted order. (increasing  order)
+**set(sorted and duplicate removed): 
+Stores the values in sorted order (increasing  order)
 Stores only unique values.
 Time Complexity : log(n)
 
 **Unordered_Set:
-Elements can be stored in any order. ( no sorted order ) 
+no sorted order  
 Stores only unique values. 
-Time Complexity : O(1)->avg , O(N)->worst
+Time Complexity : O(1)->avg , O(n)->worst
 
 **Multiset(Sorted and  duplicates allowed):
 Stores elements in sorted order. 
 It allows the storage of multiple elements.       
 Time Complexity : log(n)
+
 */
-
-
-
-
 
 
 
 /* 
 
-vector element push in set:
-
-set<int>st(v.begin(),v.end());
-
-
 find function in set:
+
 if(st.find(num)!=st.end()){
 	execute if found num in set
 }

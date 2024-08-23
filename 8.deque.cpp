@@ -5,6 +5,7 @@ using namespace std;                       // * push_front() , push_back()
 int main(){
 
     deque<int>dq;
+    
     dq.push_front(1);                     
     dq.push_front(2);
     dq.push_front(3);
@@ -16,8 +17,8 @@ int main(){
 
     cout<<dq.front()<<" "<<dq.back()<<endl;    // 5  9
     dq.pop_front();                            // 5
-    cout<<dq.front()<<" "<<dq.back()<<endl;    //4  9
-    dq.pop_back();                             //9
+    cout<<dq.front()<<" "<<dq.back()<<endl;    // 4  9
+    dq.pop_back();                             // 9
     cout<<dq.front()<<" "<<dq.back()<<endl;    // 4 8
 
     cout<<dq.size()<<endl;

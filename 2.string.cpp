@@ -1,5 +1,3 @@
-/// In the name of ALLAH
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -128,7 +126,7 @@ int main()
     for (auto u : v)
         cout << u << endl;
 
-    /**
+/**
 
     Out put :
 
@@ -140,7 +138,7 @@ int main()
     Nova
     Rashedul Alam Anik
 
-    */
+*/
 
     s = "asdf";
 
@@ -202,40 +200,20 @@ int main()
     return 0;
 }
 
-/*
-*********Substring Function***********
-
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-    string str = "Hello, world!";
-
-    ****Extracting a substring from position 7 (index 6) with length 5****
-
-    string sub2 = str.substr(7, 5);
-    cout << "Substring 2: " << sub2 << endl; // Output: "world"
-
-    ****Extracting a substring from position 7 (index 6) to the end of the string****
-
-    string sub1 = str.substr(7);
-    cout << "Substring 1: " << sub1 << endl; // Output: "world!"
+//     if(x.find(s)!=-1) check if s substring exist in x , if this condition true that means exist  
 
 
-    return 0;
-}
+//     string str = "Hello, world!";
+//     string sub2 = str.substr(7, 5); //Extracting a substring from position 7 (index 6) with length 5
+//     cout << "Substring 2: " << sub2 << endl; // Output: "world
+//     string sub1 = str.substr(7);  //Extracting a substring from position 7 (index 6) to the end of the string
+//     cout << "Substring 1: " << sub1 << endl; // Output: "world!"
 
-*/
 
-/* 
-   ** input string with space **
-   
-    string s; 
-    cin>>s;
-    char c;
-    getline(cin , s);
-    s=c+s;
+//     input string with space
+//     string s; 
+//     cin>>s;
+//     char c;
+//     getline(cin,s);
+//     s=c+s;
 
-*/
-
-//if(x.find(s)!=-1) check if s substring exist in x , if this condition true that means exist  
