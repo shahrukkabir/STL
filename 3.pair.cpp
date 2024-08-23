@@ -1,10 +1,5 @@
-///   ***   ---   |||		 In the name of ALLAH		|||   ---   ***   ///
-
-
-
 #include<bits/stdc++.h>
 using namespace std;
-
 
 bool cmp ( const pair<int,int> &p1, const pair<int, int> &p2  )
 {
@@ -44,7 +39,7 @@ bool cmp ( const pair<int,int> &p1, const pair<int, int> &p2  )
 int main()
 {
 
-	/// Declare a pair o integers
+	/// Declare a pair of integers
 
 	pair<int,int> p;
 
@@ -68,6 +63,7 @@ int main()
 	/// Sorting pair of integers
 
 	vector<pair<int,int>> v;
+	
 	v.push_back ( { 1, 5 } );
 	v.push_back ( { 2, 5 } );
 	v.push_back ( { 7, 1 } );

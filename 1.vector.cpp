@@ -1,5 +1,3 @@
-/// In the name of ALLAH
-
 #include<bits/stdc++.h>
 using namespace std;
 int main ()
@@ -95,13 +93,6 @@ int main ()
     a = { 1, 1, 2, 2, 2, 3, 3 };
 
     //sort takte hbe
-    
-    unique( a.begin(), a.end() );
-
-    for ( auto u : a ) cout << u << " "; /// 1 2 3 2 2 3 3 
-    cout << endl;
-
-     //  v.resize(unique(v)); ********
 
     a = { 1, 1, 2, 2, 2, 3, 3 };
     int n = unique( a.begin(), a.end() ) - a.begin();
@@ -119,3 +110,9 @@ int main ()
 
 //  v.erase(unique(v.begin(),v.end()),v.end());
 
+
+//Array sort
+
+//        int arr[] = {1,5,8,9,6,7,3,4,2,0};
+//        int n = sizeof(arr)/sizeof(arr[0]);
+//        sort(arr,arr+n);

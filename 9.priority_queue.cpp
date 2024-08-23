@@ -1,4 +1,3 @@
-/* 
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -9,9 +8,9 @@ int main(){
     pq.push(3);
     pq.push(4);
 
-    cout<<pq.top()<<endl; // 4 
+    cout<<pq.top()<<endl;  // 4 
     pq.pop();
-    cout<<pq.top()<<endl; // 3
+    cout<<pq.top()<<endl;  // 3
 
     cout<<"Size of pq : ";
     cout<<pq.size()<<endl;
@@ -21,22 +20,19 @@ int main(){
         cout<<pq.top()<<" ";
         pq.pop();
     }
-    
-    // priority_queue<int,vector<int>,greater<int>>pq; // comparator-> small to big
-    
+       
    return 0;
 }
 
-*/
 
 #include<bits/stdc++.h>
 using namespace std;
 
 int main(){
-
     
     priority_queue<pair<int,int>>pq; //normally without comparator value prints with big to small
 
+    // priority_queue<int,vector<int>,greater<int>>pq; // comparator-> small to big
     // priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>pq; // comparator-> small to big
 
     pq.push({1, 2});
